@@ -1,5 +1,5 @@
 
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import ChoiceCard from './components/Box'
 import 'bootstrap/dist/css/bootstrap.min.css';

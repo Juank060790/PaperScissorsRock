@@ -11,9 +11,9 @@ function App() {
   const [prompt, setGamePrompt] = useState("Start");
   const [playerChoice, setPlayerChoice] = useState(null)
   const [computerChoice, setComputerChoice] = useState(null)
-  const [result, setResult] = useState(null)
+  // const [result, setResult] = useState(null)
   const [previousWinner, setPreviousWinner] = useState(null);
-  const [gameHistory, setGameHistory] = useState([]);
+  const [gameHistory, ] = useState([]);
 
 
   const onPlayerChoose = playerChoice => {
